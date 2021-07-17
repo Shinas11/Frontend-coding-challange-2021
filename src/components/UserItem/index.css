@@ -1,0 +1,48 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.card-items {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid blue;
+  width: 50%;
+  padding: 15px;
+}
+
+.line {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #003333;
+  width: 2px;
+}
+
+.name-set {
+  display: flex;
+}
+.photo {
+  background-color: #3333cc;
+  border: 1px solid #006600;
+  border-radius: 17px;
+  padding: 10px;
+  width: 20%;
+
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: white;
+  font-size: 18px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.datas {
+  flex-wrap: wrap;
+}

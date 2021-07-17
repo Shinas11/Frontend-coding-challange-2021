@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 4px solid red;
+  background-size: cover;
+}
+
+.head {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.lower-part {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+.top-part {
+  background-color: #3333cc;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-part {
+  background-color: #3333cc;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
